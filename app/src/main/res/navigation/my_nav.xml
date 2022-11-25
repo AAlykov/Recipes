@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/recipesFragment">
+
+    <fragment
+        android:id="@+id/favoriteRecipiesFragment"
+        android:name="com.tomsk.alykov.recipes.FavoriteRecipiesFragment"
+        android:label="Favorite recipes"
+        tools:layout="@layout/fragment_favorite_recipies" />
+    <fragment
+        android:id="@+id/foodJokeFragment"
+        android:name="com.tomsk.alykov.recipes.FoodJokeFragment"
+        android:label="Joke"
+        tools:layout="@layout/fragment_food_joke" />
+    <fragment
+        android:id="@+id/recipesFragment"
+        android:name="com.tomsk.alykov.recipes.RecipesFragment"
+        android:label="Recipes"
+        tools:layout="@layout/fragment_recipes" />
+</navigation>
