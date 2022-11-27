@@ -7,17 +7,17 @@
 
     <fragment
         android:id="@+id/favoriteRecipiesFragment"
-        android:name="com.tomsk.alykov.recipes.FavoriteRecipiesFragment"
+        android:name="com.tomsk.alykov.recipes.ui.fragmenst.FavoriteRecipiesFragment"
         android:label="Favorite recipes"
         tools:layout="@layout/fragment_favorite_recipies" />
     <fragment
         android:id="@+id/foodJokeFragment"
-        android:name="com.tomsk.alykov.recipes.FoodJokeFragment"
+        android:name="com.tomsk.alykov.recipes.ui.fragmenst.FoodJokeFragment"
         android:label="Joke"
         tools:layout="@layout/fragment_food_joke" />
     <fragment
         android:id="@+id/recipesFragment"
-        android:name="com.tomsk.alykov.recipes.RecipesFragment"
+        android:name="com.tomsk.alykov.recipes.ui.fragmenst.RecipesFragment"
         android:label="Recipes"
         tools:layout="@layout/fragment_recipes" />
 </navigation>
