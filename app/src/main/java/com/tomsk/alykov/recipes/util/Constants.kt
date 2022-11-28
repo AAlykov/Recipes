@@ -1,4 +1,4 @@
-package com.tomsk.alykov.recipes
+package com.tomsk.alykov.recipes.util
 
 class Constants {
 

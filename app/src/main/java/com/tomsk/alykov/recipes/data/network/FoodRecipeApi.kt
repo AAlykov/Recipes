@@ -1,4 +1,4 @@
-package com.tomsk.alykov.recipes
+package com.tomsk.alykov.recipes.data.network
 
 import com.tomsk.alykov.recipes.models.FoodRecipe
 import retrofit2.Response
